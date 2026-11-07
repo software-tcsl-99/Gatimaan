@@ -27,7 +27,7 @@ export async function POST(request: Request) {
       process.env.NEXT_PUBLIC_PRIVACY_EMAIL?.trim() ||
       process.env.NEXT_PUBLIC_SUPPORT_EMAIL?.trim() ||
       process.env.NEXT_PUBLIC_COMPANY_EMAIL?.trim() ||
-      "";
+      "sales@trucode.in";
 
     // If a live backend ERP deletion endpoint is not configured yet, return an honest status
     // instructing the client to use the official support email / administrator channel.

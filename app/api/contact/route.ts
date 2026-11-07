@@ -26,7 +26,7 @@ export async function POST(request: Request) {
     const configuredEmail =
       process.env.NEXT_PUBLIC_COMPANY_EMAIL?.trim() ||
       process.env.NEXT_PUBLIC_SUPPORT_EMAIL?.trim() ||
-      "";
+      "sales@trucode.in";
 
     if (!contactBackendUrl) {
       return NextResponse.json(
