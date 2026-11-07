@@ -53,7 +53,7 @@ export const siteConfig: SiteConfig = {
       "An intelligent enterprise platform that connects workforce management, field operations, attendance, GPS tracking, expense management, inventory movement, customer visits, and workforce analytics into one unified ecosystem.",
     logoPath: "/logo/gatimaan-logo.jpg",
   },
-  siteUrl: process.env.NEXT_PUBLIC_SITE_URL?.trim() || "https://gatimaan.enterprise",
+  siteUrl: process.env.NEXT_PUBLIC_SITE_URL?.trim() || "https://gatimaan.in",
   app: {
     playStoreUrl: envPlayStoreUrl,
     isPlayStoreAvailable: Boolean(envPlayStoreUrl),
