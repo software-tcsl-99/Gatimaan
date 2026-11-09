@@ -24,7 +24,7 @@ export default function PrivacyPolicyPage() {
   return (
     <LegalLayout
       title="Privacy Policy"
-      subtitle="Transparent disclosure of how Gatimaan collects, verifies, processes, and protects workforce, attendance, GPS tracking, expense, and inventory information."
+      subtitle="How Gatimaan collects, uses, stores, protects, and discloses your information when you use our services."
       effectiveDate={siteConfig.legal.privacyEffectiveDate}
       lastUpdated={siteConfig.legal.privacyLastUpdated}
       sidebar={<TableOfContents />}
@@ -33,4 +33,3 @@ export default function PrivacyPolicyPage() {
     </LegalLayout>
   );
 }
-

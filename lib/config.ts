@@ -51,7 +51,7 @@ export const siteConfig: SiteConfig = {
     tagline: "Driven by code, managed with precision",
     positioning:
       "An intelligent enterprise platform that connects workforce management, field operations, attendance, GPS tracking, expense management, inventory movement, customer visits, and workforce analytics into one unified ecosystem.",
-    logoPath: "/logo/gatimaan-logo.jpg",
+    logoPath: "/logo/gatimaan-logo.png",
   },
   siteUrl: process.env.NEXT_PUBLIC_SITE_URL?.trim() || "https://gatimaan.io",
   app: {
@@ -78,9 +78,9 @@ export const siteConfig: SiteConfig = {
   },
   legal: {
     privacyEffectiveDate:
-      process.env.NEXT_PUBLIC_PRIVACY_EFFECTIVE_DATE?.trim() || "November 7, 2026",
+      process.env.NEXT_PUBLIC_PRIVACY_EFFECTIVE_DATE?.trim() || "November 9, 2026",
     privacyLastUpdated:
-      process.env.NEXT_PUBLIC_PRIVACY_LAST_UPDATED?.trim() || "November 7, 2026",
+      process.env.NEXT_PUBLIC_PRIVACY_LAST_UPDATED?.trim() || "November 9, 2026",
     retentionDurationPlaceholder:
       process.env.NEXT_PUBLIC_RETENTION_POLICY_TEXT?.trim() ||
       "for the duration of active employment or service engagement and in accordance with the employing organization's configured retention schedule and applicable statutory requirements",
@@ -90,4 +90,3 @@ export const siteConfig: SiteConfig = {
     approvedTermsUrl: envTermsUrl,
   },
 };
-

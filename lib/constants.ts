@@ -574,78 +574,45 @@ export const TECH_ECOSYSTEM: TechEcosystemItem[] = [
 
 export const PRIVACY_TOC = [
   { id: "introduction", number: "1", title: "Introduction" },
-  { id: "scope", number: "2", title: "Scope of This Privacy Policy" },
-  { id: "information-we-collect", number: "3", title: "Information We Collect" },
-  { id: "camera-permission", number: "4", title: "Camera Permission and Usage" },
-  {
-    id: "location-permission",
-    number: "5",
-    title: "Location Permission and Background Location Usage",
-  },
-  {
-    id: "notifications-permissions",
-    number: "6",
-    title: "Notifications and Device Permissions",
-  },
-  { id: "how-we-use-information", number: "7", title: "How We Use Information" },
-  {
-    id: "gps-tracking-verification",
-    number: "8",
-    title: "GPS Tracking and Location Verification",
-  },
-  { id: "data-storage-security", number: "9", title: "Data Storage and Security" },
-  {
-    id: "third-party-services",
-    number: "10",
-    title: "Third-Party Services and Integrations",
-  },
+  { id: "information-we-collect", number: "2", title: "Information We Collect and Why We Collect It" },
+  { id: "how-we-use-information", number: "3", title: "How We Use Your Information" },
   {
     id: "data-sharing-disclosure",
-    number: "11",
-    title: "Data Sharing and Disclosure",
+    number: "4",
+    title: "Data Sharing and Third-Party Service Providers",
   },
-  { id: "data-retention", number: "12", title: "Data Retention" },
-  {
-    id: "responsibilities",
-    number: "13",
-    title: "Employee and Organization Responsibilities",
-  },
-  { id: "childrens-privacy", number: "14", title: "Children's Privacy" },
-  { id: "user-rights", number: "15", title: "User Rights and Data Access" },
-  {
-    id: "account-deactivation-deletion",
-    number: "16",
-    title: "Account Deactivation and Data Deletion",
-  },
-  { id: "policy-changes", number: "17", title: "Changes to This Privacy Policy" },
-  { id: "contact-information", number: "18", title: "Contact Information" },
+  { id: "data-storage-security", number: "5", title: "Data Storage and Security" },
+  { id: "data-retention", number: "6", title: "Data Retention and Account Deletion" },
+  { id: "user-rights", number: "7", title: "Your Rights and Permissions Control" },
+  { id: "childrens-privacy", number: "8", title: "Children's Privacy" },
+  { id: "policy-changes", number: "9", title: "Changes to This Privacy Policy" },
+  { id: "contact-information", number: "10", title: "Contact Us" },
 ];
 
 export const DELETION_FAQS = [
   {
-    question: "How long does deletion take?",
+    question: "How long does account and data deletion take?",
     answer:
-      "Deletion requests are processed after identity verification by your employing organization's authorized administrator and review against applicable statutory and business retention obligations. Exact completion timing follows your organization's configured retention and administrative review schedule.",
+      "After verification by your Company Administrator, account deactivation and access revocation take 24 to 48 hours. Permanent deletion of personal profile data is completed within 7 to 30 calendar days. Historical business records may be retained as required by applicable tax and labor regulations.",
   },
   {
-    question: "Can I request deletion through my company administrator?",
+    question: "What information should I include in an email request?",
     answer:
-      "Yes. Because Gatimaan operates as an enterprise multi-tenant workforce platform provisioned by your employer or contracting organization, your Company Administrator or HR/IT department can directly initiate account deactivation or eligible data deletion within your company's tenant environment.",
+      "Email support@gatimaan.io with the subject line “Account Deletion Request — Gatimaan” and include your full name, Company Code or organization name, registered mobile number or Employee ID, and optionally your reason for the request.",
   },
   {
-    question: "Will my attendance and financial records also be deleted?",
+    question: "Can I request deletion if I have uninstalled the app?",
     answer:
-      "Personal profile attributes, active device bindings, and non-mandatory operational data can be deleted or anonymized when eligible. However, records required for financial accounting, expense disbursements, petty cash ledgers, Tally Prime voucher audit trails, tax compliance, or statutory employment laws may be retained in accordance with legal and organizational obligations.",
+      "Yes. You can contact your Company Administrator or HR Department, or email support@gatimaan.io without logging into the app.",
   },
   {
-    question: "Can I recover my account after deletion?",
+    question: "What data may be retained after my account is deleted?",
     answer:
-      "Once account deletion and personal data anonymization or removal are completed, the action is permanent and the deleted profile cannot be restored. If you only require temporary suspension of access or background tracking, you or your administrator should request Account Deactivation instead.",
+      "Historical attendance and shift summaries, approved expense claims and petty cash vouchers, and material movement and gate pass audit logs may be retained by your Employer Organization in anonymized or archived form for payroll, accounting, tax, labor law, or inventory audit compliance.",
   },
   {
-    question: "How will I receive confirmation?",
+    question: "Who verifies and processes my request?",
     answer:
-      "Once your request has been verified by the authorized administrator and processed according to applicable retention policies, confirmation will be sent to your registered email address or communicated through your organization's designated HR/administration channel.",
+      "Your support request is coordinated with your Employer Organization's authorized Company Administrator, who verifies your identity and processes the account and data deletion request.",
   },
 ];
-
