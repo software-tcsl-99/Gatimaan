@@ -67,13 +67,13 @@ export function Navbar() {
             href="/"
             className="flex items-center gap-3 group focus:outline-none"
           >
-            <div className="relative h-10 w-10 overflow-hidden rounded-xl border border-indigo-400/30 bg-white shadow-md shadow-indigo-500/20 transition-transform duration-200 group-hover:scale-105">
+            <div className="relative h-10 w-10 transition-transform duration-200 group-hover:scale-105">
               <Image
                 src={siteConfig.brand.logoPath}
                 alt={`${siteConfig.brand.name} Logo`}
                 fill
                 sizes="40px"
-                className="object-cover"
+                className="object-contain"
                 priority
               />
             </div>
@@ -196,4 +196,3 @@ export function Navbar() {
     </header>
   );
 }
-

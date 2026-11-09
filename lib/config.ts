@@ -40,7 +40,9 @@ export interface SiteConfig {
 const envPlayStoreUrl = process.env.NEXT_PUBLIC_PLAY_STORE_URL?.trim() || "";
 const envIosAppStoreUrl = process.env.NEXT_PUBLIC_IOS_APP_STORE_URL?.trim() || "";
 const envCompanyEmail = process.env.NEXT_PUBLIC_COMPANY_EMAIL?.trim() || "sales@trucode.in";
-const envSupportEmail = process.env.NEXT_PUBLIC_SUPPORT_EMAIL?.trim() || envCompanyEmail;
+const envSupportEmail =
+  process.env.NEXT_PUBLIC_SUPPORT_EMAIL?.trim() ||
+  "trucodecodingsystemlimited09@gmail.com";
 const envPrivacyEmail = process.env.NEXT_PUBLIC_PRIVACY_EMAIL?.trim() || envSupportEmail;
 const envCompanyPhone = process.env.NEXT_PUBLIC_COMPANY_PHONE?.trim() || "9665749595";
 const envTermsUrl = process.env.NEXT_PUBLIC_APPROVED_TERMS_URL?.trim() || "";

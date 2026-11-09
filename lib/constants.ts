@@ -598,12 +598,12 @@ export const DELETION_FAQS = [
   {
     question: "What information should I include in an email request?",
     answer:
-      "Email support@gatimaan.io with the subject line “Account Deletion Request — Gatimaan” and include your full name, Company Code or organization name, registered mobile number or Employee ID, and optionally your reason for the request.",
+      "Email trucodecodingsystemlimited09@gmail.com with the subject line “Account Deletion Request — Gatimaan” and include your full name, Company Code or organization name, registered mobile number or Employee ID, and optionally your reason for the request.",
   },
   {
     question: "Can I request deletion if I have uninstalled the app?",
     answer:
-      "Yes. You can contact your Company Administrator or HR Department, or email support@gatimaan.io without logging into the app.",
+      "Yes. You can contact your Company Administrator or HR Department, or email trucodecodingsystemlimited09@gmail.com without logging into the app.",
   },
   {
     question: "What data may be retained after my account is deleted?",

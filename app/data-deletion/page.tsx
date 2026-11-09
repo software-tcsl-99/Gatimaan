@@ -3,7 +3,6 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import {
   Archive,
-  ArrowRight,
   CheckCircle2,
   Clock3,
   Mail,
@@ -12,12 +11,11 @@ import {
   UserRoundX,
 } from "lucide-react";
 import { Container } from "@/components/ui/Container";
-import { DeletionRequestForm } from "@/components/deletion/DeletionRequestForm";
 import { DeletionFAQ } from "@/components/deletion/DeletionFAQ";
 import { siteConfig } from "@/lib/config";
 
 const deletionUrl = "https://www.gatimaan.io/data-deletion";
-const supportEmail = "support@gatimaan.io";
+const supportEmail = siteConfig.contact.supportEmail;
 
 export const metadata: Metadata = {
   title: "Account & Data Deletion Policy",
@@ -94,13 +92,6 @@ export default function DataDeletionPage() {
             </p>
 
             <div className="mt-6 flex flex-wrap items-center gap-3 text-xs text-slate-300">
-              <Link
-                href="#deletion-form"
-                className="inline-flex items-center gap-1.5 rounded-xl bg-indigo-600 px-4 py-2 font-semibold text-white transition-colors hover:bg-indigo-500"
-              >
-                <span>Submit an Online Request</span>
-                <ArrowRight className="h-3.5 w-3.5" />
-              </Link>
               <Link
                 href="/privacy-policy"
                 className="inline-flex items-center gap-1.5 rounded-xl border border-white/15 bg-white/5 px-4 py-2 text-slate-200 transition-colors hover:bg-white/10"
@@ -221,9 +212,6 @@ export default function DataDeletionPage() {
               </p>
             </div>
           </div>
-          <p className="text-sm text-slate-600">
-            You may also submit a request using the online form below.
-          </p>
         </section>
 
         <section id="data-handling" className="scroll-mt-28 space-y-6">
@@ -370,10 +358,6 @@ export default function DataDeletionPage() {
               </a>
             </li>
           </ul>
-        </section>
-
-        <section id="deletion-form" className="scroll-mt-28">
-          <DeletionRequestForm />
         </section>
 
         <DeletionFAQ />

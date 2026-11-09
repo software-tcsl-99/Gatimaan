@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { siteConfig } from "@/lib/config";
 
 const publicSiteUrl = "https://www.gatimaan.io";
 const sectionHeadingClass =
@@ -322,10 +323,10 @@ export function PrivacyContent() {
                 Contact your organization&rsquo;s HR/Company Administrator or
                 email us directly at{" "}
                 <a
-                  href="mailto:support@gatimaan.io"
+                  href={`mailto:${siteConfig.contact.supportEmail}`}
                   className="text-indigo-600 hover:underline"
                 >
-                  support@gatimaan.io
+                  {siteConfig.contact.supportEmail}
                 </a>
                 .
               </li>
@@ -402,10 +403,10 @@ export function PrivacyContent() {
           <li>
             <strong>Email:</strong>{" "}
             <a
-              href="mailto:support@gatimaan.io"
+              href={`mailto:${siteConfig.contact.supportEmail}`}
               className="text-indigo-600 hover:underline"
             >
-              support@gatimaan.io
+              {siteConfig.contact.supportEmail}
             </a>
           </li>
           <li>
