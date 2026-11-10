@@ -91,7 +91,7 @@ export function PrivacyContent() {
                   While background tracking is active, Gatimaan displays a
                   persistent notification in your device status bar (
                   <em>
-                    &ldquo;Gatimaan — Live duty tracking active while clocked
+                    &ldquo;Gatimaan — Live duty tracking active while punched
                     in&rdquo;
                   </em>
                   ).
@@ -303,10 +303,6 @@ export function PrivacyContent() {
             request the deletion of your account and associated personal data
             at any time through:
             <ol className="list-decimal pl-6 mt-2 space-y-2">
-              <li>
-                <strong>Inside the Mobile App:</strong> Go to{" "}
-                <strong>My Profile → Request Account Deletion</strong>.
-              </li>
               <li>
                 <strong>On the Web:</strong> Visit our dedicated Account &amp;
                 Data Deletion page at{" "}
